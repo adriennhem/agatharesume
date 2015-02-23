@@ -1,0 +1,79 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,800);
+
+$navbar-default-bg:#000;
+$navbar-default-link-color:#fff;
+$navbar-default-link-hover-color:#1abc9c;
+$navbar-default-brand-hover-color:#fff;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body {
+  position: relative;
+}
+
+
+#about {
+	background:#e8e8e8;
+	margin-top:50px;
+}
+
+// EDUCATION
+
+#education h1 {
+	text-align:center;
+	margin-bottom:125px;
+}
+
+.education {
+	margin-bottom:50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.education p {
+	line-height:23px;
+	font-size:16px;
+	font-weight:300;
+	color:#606060;
+	
+}
+
+.education p, .education h4, .education h5 {
+	margin-left:40px;
+}
+
+span.date {
+	margin-left:125px;
+	font-size:24px;
+	color:#fff;
+	background:#1abc9c;
+	padding:5px 5px;
+	border-radius:5px;
+}
+
+.education h4 {
+	margin-top:20px;
+	font-size:20px;
+	font-weight:800;
+	
+}
+
+.education h5 {
+	font-size:18px;
+	font-weight:700;
+}
+
+.education ul {
+	margin-left:50px;
+}
+
+.education ul li {
+	color:#606060;
+}
