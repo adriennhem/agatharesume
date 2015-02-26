@@ -8,7 +8,7 @@ $navbar-default-bg:#000;
 $navbar-default-link-color:#fff;
 $navbar-default-link-hover-color:#1abc9c;
 $navbar-default-brand-hover-color:#fff;
-
+$navbar-default-link-active-color:#1abc9c;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -23,6 +23,19 @@ body {
 	background:#e8e8e8;
 	margin-top:50px;
 }
+
+// NAVBAR
+
+.navbar-right {
+	font-weight:600;
+	font-size:16px;
+}
+
+.navbar-brand {
+	font-size:20px;
+}
+
+
 
 // EDUCATION
 
@@ -128,7 +141,77 @@ span.date {
 
 }
 
-#can-do {
-
+#can-do h2 {
+		font-size:22px;
+	font-weight:300;
+	text-align:center;
 }
 	
+// WhAT I LOVE
+
+#love {
+	background:#F3EFE0;
+}
+
+#love h1 {
+	font-size:56px;
+	background:#1abc9c;
+	border-radius:5px;
+	padding:10px 15px;
+	font-weight:900;
+	color:#fff;
+	text-transform:uppercase;
+	width:600px;
+	margin-left:370px;
+}
+
+// GET IN TOUCH
+
+#contact {
+	background:#434242;
+	height:650px;
+}
+
+#contact h1 {
+	font-size:48px;
+	padding:10px 15px;
+	font-weight:300;
+	color:#fff;
+	text-transform:uppercase;
+	width:445px;
+	margin-left:470px;
+	margin-top:150px;
+}
+
+#contact h2 {
+	font-weight:300;
+	font-size:22px;
+	margin-left:350px;
+	padding-bottom:50px;
+	color:#6E7878;
+	width:650px;
+	border-bottom:1px solid #6E7878;
+}
+
+#contact .col-md-5 {
+	margin-left:400px;
+	margin-top:20px;
+	padding-bottom:50px;
+	margin-bottom:40px;
+
+}
+
+#contact .col-md-5 a {
+	padding:10px 25px;
+
+}
+
+#contact span {
+	border-top:1px solid #6E7878;
+	padding-top:40px;
+	margin-left:470px;
+	color:#fff;
+	margin-top:30px;
+	font-size:18px;
+
+}
