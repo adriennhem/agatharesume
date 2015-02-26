@@ -25,7 +25,6 @@ ready = function() {
 
 
 
-
 // Highlight active nav
 $('body').scrollspy({ target: '.navbar' })
 
@@ -49,7 +48,6 @@ $('.last:last-child').waypoint(function() {
 
 
 });
-
 
 
 };
