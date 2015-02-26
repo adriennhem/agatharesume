@@ -28,7 +28,15 @@ body {
 
 #education h1 {
 	text-align:center;
-	margin-bottom:125px;
+	font-size:56px;
+	background:#1abc9c;
+	border-radius:5px;
+	padding:10px 5px;
+	font-weight:900;
+	color:#fff;
+	text-transform:uppercase;
+	width:500px;
+	margin-left:430px;
 }
 
 .education {
@@ -77,3 +85,50 @@ span.date {
 .education ul li {
 	color:#606060;
 }
+
+// WORK EXPERIENCE
+
+#experience {
+	background:#F3EFE0;
+}
+
+#experience h1 {
+	font-size:56px;
+	background:#1abc9c;
+	border-radius:5px;
+	padding:10px 15px;
+	font-weight:900;
+	color:#fff;
+	text-transform:uppercase;
+	width:600px;
+	margin-left:380px;
+}
+
+#experience h2 {
+	font-size:22px;
+	font-weight:300;
+	text-align:center;
+}
+
+// Remonter le subtitle 
+
+
+// WHAT I CAN DO
+
+#can-do h1 {
+	font-size:56px;
+	background:#1abc9c;
+	border-radius:5px;
+	padding:10px 15px;
+	font-weight:900;
+	color:#fff;
+	text-transform:uppercase;
+	width:470px;
+	margin-left:430px;
+
+}
+
+#can-do {
+
+}
+	
