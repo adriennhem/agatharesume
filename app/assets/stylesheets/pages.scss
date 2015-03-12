@@ -4,7 +4,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,800);
 
-$navbar-default-bg:#000;
+$navbar-default-bg:rgba(0,0,0,0.7);
 $navbar-default-link-color:#fff;
 $navbar-default-link-hover-color:#1abc9c;
 $navbar-default-brand-hover-color:#fff;
@@ -20,14 +20,40 @@ body {
 
 
 #about {
-	background:#e8e8e8;
-	margin-top:50px;
+	background:url(blonde.jpg) no-repeat fixed center;
+	height:750px;
+	margin-top:0px;
+
+}
+
+#about h1 {
+	color:#1abc9c;
+	font-size:86px;
+	position:relative;
+	top:100px;
+	left:100px;
+}
+
+#about h2 {
+	color:white;
+	position:relative;
+	top:100px;
+	left:105px;
+}
+
+#about p {
+	color:white;
+	position:relative;
+	top:100px;
+	left:105px;
+	font-size:24px;
+	font-weight:300;
 }
 
 // NAVBAR
 
 .navbar-right {
-	font-weight:600;
+	font-weight:300;
 	font-size:16px;
 }
 
@@ -177,7 +203,7 @@ span.date {
 
 #contact {
 	background:#434242;
-	height:650px;
+	height:632px;
 }
 
 #contact h1 {
@@ -286,9 +312,10 @@ span.date {
 		z-index: 10;
 		color: #fff;
 		position: absolute;
-		width: 300px;
+		width: 270px;
 		height: 300px;
 		text-align: center;
 		top:20px;
 	}
 
+// bug text
